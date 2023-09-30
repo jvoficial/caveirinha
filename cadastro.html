@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caveirinha</title>
+    <link rel="stylesheet" href="/assets/cadastro.css">
+    <style>
+    
+    </style>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    
+    <head><link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"></head>
+    <div class="container">
+        <div class="row">
+                       
+             <div id="wrapper">
+            
+        
+    
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <img class="user" src="/img/cav-png.png" height="100px" width="100px" id="img-navbar">
+                <ul class="sidebar-nav" style="margin-left:0; padding-top: 60px;">
+                    <li class="sidebar-brand">
+                        
+                            <a href="#menu-toggle"  id="menu-toggle" style="margin-top:20px;float:right;" > <i class="fa fa-bars " style="font-size:20px !Important;" aria-hidden="true" aria-hidden="true"></i> 
+                        
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-sort-alpha-asc " aria-hidden="true"> </i><a href="/fo.html"><span style="margin-left:10px;">Lançar FO</span></a></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-sort-alpha-asc " aria-hidden="true"> </i><a href="/visitamedica.html"><span style="margin-left:10px;">Registrar Visita Médica</span></a></a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa fa-play-circle-o " aria-hidden="true"> </i><a href="/fichaind.html"><span style="margin-left:10px;">Ficha Disciplinar</span></a></a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa fa-puzzle-piece" aria-hidden="true"> </i><a href="/fichamed.html"><span style="margin-left:10px;">Ficha Médica</span></a></a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa fa-font" aria-hidden="true"> </i><a href="/taf.html"><span style="margin-left:10px;">TAF</span></a></a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa fa-font" aria-hidden="true"> </i><a href="/cadastro.html"><span style="margin-left:10px;">Cadastrar Militar</span></a></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /#sidebar-wrapper -->
+    
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+        <div class="pagina-cad" id="divcad">
+            
+            <!-- Labels -->
+            
+            <label class="formcad" id="lblnome">Nome Completo</label>
+            <label class="formcad" id="lblidt">Identidade</label>
+            <label class="formcad" id="lblcpf">CPF</label>
+            <label class="formcad" id="lblnasc">Data de Nascimento</label>
+            <label class="formcad" id="lbltipagem">Tipagem Sanguínea</label><br>
+
+            <!--Inputs -->
+
+            <input type="text" class="formcad" id="txtnome" name="nome" tabindex="1" required>
+            <input type="text" class="formcad" id="txtidt" name="idt" tabindex="2" required>
+            <input type="text" class="formcad" id="txtcpf" name="idt" tabindex="3" required>
+            <input type="date" class="formcad" id="txtnasc" name="nasc" tabindex="4" required>
+            <input type="text" class="formcad" id="txtts" name="tipagem" tabindex="5" required><br><br>
+
+            <!-- Escolaridade -->
+          
+            <label class="formcad" id="lblescolaridade">Escolaridade</label><br>
+            <select class="formcad" id="slctescola" name="escola" required>
+                <option>Ensino Fundamental Incompleto</option>
+                <option>Ensino Fundamental Completo</option>
+                <option>Ensino Médio Incompleto</option>
+                <option>Ensino Médio Completo</option>
+                <option>Ensino Supeior Incompleto</option>
+                <option>Ensino Superior Completo</option>
+            </select><br><br>
+
+            <!-- Labels -->
+
+            <label class="formcad" id="lbltel">Telefone</label>
+            <label class="formcad" id="lblemail">E-mail</label>
+            <label class="formcad" id="lblende">Endereço</label><Br>
+
+            <!--Inputs -->
+            
+            <input type="text" class="formcad" id="txttel" name="tel" tabindex="7" required>
+            <input type="text" class="formcad" id="txtemail" name="email" tabindex="8" required>
+            <input type="text" class="formcad" id="txtende" name="ende" tabindex="9" required><br><br>
+
+            <!-- Labels -->
+
+            <label class="formcad" id="lblra">RA</label><br>
+            <input type="text" class="formcad" id="txtra" name="ra" tabindex="10" required><br><br>
+
+            <!-- Labels -->
+                                
+            <label class="formcad" id="lblpai">Nome do Pai</label>                               
+            <label class="formcad" id="lbltelpai">Telefone do Pai</label>
+            <label class="formcad" id="lblmae">Nome da Mãe</label>
+            <label class="formcad" id="lbltelmae">Telefone da Mãe</label><br>
+
+            <!-- Inputs -->
+
+            <input type="text" class="formcad" id="txtpai" name="pai" tabindex="11" required>
+            <input type="text" class="formcad" id="txttelpai" name="telpai" tabindex="12" required>
+            <input type="text" class="formcad" id="txtmae" name="mae" tabindex="13" required>
+            <input type="text" class="formcad" id="txttelmae" name="telmae" tabindex="14" required><br><br>
+
+            <!-- Input File -->
+
+            <label class="formcad" id="lblfoto">Selecione uma foto de perfil (3x4)</label>
+            <input type="file" class="formcad" id="txtfile" name="foto" tabindex="14" required><br><br>
+
+            <!-- Button -->
+
+            <button class="formcad" id="btnregistrar" name="btn" tabindex="15">Registrar</button>
+        </div>
+                        </div>
+                    </div>
+                </div>
+  
+                       
+                <!-- /#page-content-wrapper -->
+
+           
+        </div>
+    </div>
+</body>
+</html>
